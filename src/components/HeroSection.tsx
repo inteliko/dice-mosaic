@@ -26,8 +26,8 @@ const HeroSection = () => {
     },
     {
       name: "Panda",
-      thumbnail: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef3?w=800&auto=format&fit=crop",
-      url: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef3?w=800&auto=format&fit=crop"
+      thumbnail: "https://dicemosaicgenerator.com/static/media/panda.ead9b240e3e013bc6418.png",
+      url: "https://dicemosaicgenerator.com/static/media/panda.ead9b240e3e013bc6418.png"
     },
     {
       name: "Guitar",
@@ -51,8 +51,8 @@ const HeroSection = () => {
     },
     {
       name: "Frog",
-      thumbnail: "https://images.unsplash.com/photo-1551189014-fe59d5efc731?w=800&auto=format&fit=crop",
-      url: "https://images.unsplash.com/photo-1551189014-fe59d5efc731?w=800&auto=format&fit=crop"
+      thumbnail: "https://dicemosaicgenerator.com/static/media/aiFrog.ff2b84ebafb9fbee504c.png",
+      url: "https://dicemosaicgenerator.com/static/media/aiFrog.ff2b84ebafb9fbee504c.png"
     },
     {
       name: "Tabby Cat",

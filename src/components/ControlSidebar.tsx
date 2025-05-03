@@ -57,29 +57,7 @@ const ControlSidebar = ({
 
   return (
     <>
-      {/* Toggle button for both mobile and desktop */}
-      <div className="fixed top-20 left-4 z-40">
-        <Button 
-          variant="outline" 
-          size="sm" 
-          className="rounded-full shadow-md bg-white hover:bg-purple-100 flex items-center gap-1 px-3"
-          onClick={() => handleOpenChange(!isOpen)}
-        >
-          {isOpen ? (
-            <>
-              <PanelLeft className="h-4 w-4 text-purple-600" />
-              <span className="text-xs font-medium">Close Controls</span>
-            </>
-          ) : (
-            <>
-              <PanelRight className="h-4 w-4 text-purple-600" />
-              <span className="text-xs font-medium">Open Controls</span>
-            </>
-          )}
-        </Button>
-      </div>
-
-      {/* Desktop sidebar */}
+     
       <div 
         className={cn(
           "fixed inset-y-0 left-0 z-40 w-80 bg-white shadow-lg transform transition-transform duration-300 ease-in-out",
